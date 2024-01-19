@@ -154,3 +154,21 @@ h3 {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media(max-width:550px) {
+    body > .container {
+        display: block;
+        margin-top: 0;
+    }
+
+    .final-result {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .result-container {
+        width: 30%;
+    }
+
+}

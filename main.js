@@ -5,7 +5,6 @@ window.onload = function() {
     const testIcons = document.getElementsByClassName('icon');
     const testTitle = document.querySelectorAll('.test-title p');
     const finalResult = document.querySelector('.result-container .result');
-    console.log(finalResult)
     fetch("./data.json")
     .then(result => result.json())
     .then(data => {
