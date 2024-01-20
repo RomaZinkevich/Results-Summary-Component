@@ -1,8 +1,8 @@
 
 window.onload = function() {
-    const testClass = document.getElementsByClassName('test');
+    const testClass = document.querySelectorAll('.test');
     const testResults = document.querySelectorAll('p.result')
-    const testIcons = document.getElementsByClassName('icon');
+    const testIcons = document.querySelectorAll('.icon');
     const testTitle = document.querySelectorAll('.test-title p');
     const finalResult = document.querySelector('.result-container .result');
     fetch("./data.json")

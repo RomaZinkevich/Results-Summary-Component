@@ -107,22 +107,22 @@ body > .container {
     margin-top: 1rem;
 }
 
-#reaction {
+.reaction {
     background-color: hsl(0, 100%, 67%, 0.1);
     color: hsl(0, 100%, 67%)
 }
 
-#memory {
+.memory {
     background-color: hsl(39, 100%, 56%, 0.1);
     color: hsl(39, 100%, 56%)
 }
 
-#verbal {
+.verbal {
     background-color: hsl(166, 100%, 37%, 0.1);
     color: hsl(166, 100%, 37%)
 }
 
-#visual {
+.visual {
     background-color: hsl(234, 85%, 45%, 0.1);
     color: hsl(234, 85%, 45%)
 }
